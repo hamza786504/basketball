@@ -1,0 +1,78 @@
+:root{
+    --primary : #19a246;
+}
+body{
+    background-color : #f0f0f0;
+}
+.heading{
+    background-color: var(--primary);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding: 10px 20px;
+}
+.team_image{
+    height: 70px; width: 70px;
+}
+table{
+    margin: 20px 0;
+}
+tr{
+    border-bottom: 2px solid var(--primary);
+}
+tr td:first-child{
+    background-color: white;
+}
+tr th{
+    text-align: center;
+    background-color: white !important;
+}
+span{
+    color: #36393d;
+}
+p{
+    margin: 0;
+}
+.hr{
+    width: 40%;
+    background-color: #c8c9ca;
+    height: 2px;
+    display: block;
+}
+.details .row .card{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.26);
+}
+.details .row.card_section{
+    margin-top: 100px;
+}
+.details .row.card_section > div:hover{
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+
+
+
+
+
+
+
+  .table {
+    border-radius: 0.2rem;
+    width: 100%;
+    padding-bottom: 1rem;
+    color: #212529;
+    margin-bottom: 0;
+  }
+  .table th:first-child,
+  .table td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: white;
+    color: black;
+  }
+  
+  .table td {
+    white-space: nowrap;
+  }
